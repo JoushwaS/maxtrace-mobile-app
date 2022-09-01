@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import { Images } from "../assets";
-import { Metrix, Colors, Fonts } from "../config";
+import { Metrix, Colors } from "../config";
 
 interface IButtonProps {}
 
@@ -11,7 +11,10 @@ function Index({}: IButtonProps) {
       flexDirection: "row",
       alignItems: "center",
       justifyContent: "center",
-      marginTop: Metrix.VerticalSize(Metrix.VerticalSize() / 2),
+      position: "absolute",
+      bottom: 0,
+      alignSelf: "center",
+      marginVertical: Metrix.VerticalSize(15),
     },
     image: {
       width: Metrix.VerticalSize(70),

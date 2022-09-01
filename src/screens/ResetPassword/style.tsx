@@ -14,31 +14,18 @@ export const styles = StyleSheet.create({
     marginVertical: Metrix.VerticalSize(45),
     color: Colors.HeadingText,
   },
-  checkbox: {
-    width: Metrix.VerticalSize(20),
-    height: Metrix.VerticalSize(20),
-    marginBottom: Metrix.VerticalSize(30),
-  },
-  boxRow: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  helpText: {
+  inputText: {
     fontSize: Metrix.FontRegular,
-    textAlign: "center",
-    marginTop: Metrix.VerticalSize(48),
-    color: Colors.HeadingText,
+    marginHorizontal: Metrix.HorizontalSize(10),
   },
-  rowText: {
-    fontSize: Metrix.FontRegular,
-    // textAlign: "center",
+  placeHolderText: {
+    position: "absolute",
+    fontSize: Metrix.FontSmall,
+    top: Metrix.VerticalSize(-10),
+    left: Metrix.HorizontalSize(22),
+    backgroundColor: Colors.White,
     color: Colors.HeadingText,
-    marginBottom: Metrix.VerticalSize(32),
-  },
-  bottomRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
+    paddingHorizontal: Metrix.HorizontalSize(3),
   },
   image: {
     width: Metrix.VerticalSize(145),

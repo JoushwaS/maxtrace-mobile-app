@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   },
   placeHolderText: {
     position: "absolute",
-    fontSize: Metrix.FontSmall,
+    fontSize: Metrix.FontRegular,
     top: Metrix.VerticalSize(-10),
     left: Metrix.HorizontalSize(22),
     backgroundColor: Colors.White,
