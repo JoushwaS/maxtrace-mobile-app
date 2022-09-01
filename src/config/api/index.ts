@@ -1,0 +1,3 @@
+const Endpoints = {};
+
+export { Endpoints };
