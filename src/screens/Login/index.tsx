@@ -32,7 +32,7 @@ function Index(props: ISelectLangProps) {
       setLoading(false);
       dispatch(setUserData(userData.data));
     } catch (error) {
-      // console.log("error", error.response);
+      console.log("error", error.response);
       showToast({
         type: "error",
         text: error?.response?.data?.message || error.message,
