@@ -25,9 +25,9 @@ function MainStack() {
         headerShown: false,
         ...TransitionPresets.SlideFromRightIOS,
       }}
-      initialRouteName="Home"
+      initialRouteName={SCREENS.HOME}
     >
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name={SCREENS.HOME} component={Home} />
     </Stack.Navigator>
   );
 }
@@ -50,7 +50,7 @@ function AuthStack() {
 
 function Navigation() {
   const scheme = useColorScheme();
-  const isAuthenticated = useSelector((state: any) => state.auth.email);
+  const { isAuth } = useSelector((state: any) => state.auth);
   return (
     <NavigationContainer
       ref={(ref) => Navigator.setTopLevelNavigator(ref)}
@@ -62,7 +62,7 @@ function Navigation() {
           backgroundColor: Colors.White,
         }}
       >
-        {isAuthenticated ? MainStack() : AuthStack()}
+        {isAuth ? MainStack() : AuthStack()}
       </SafeAreaView>
     </NavigationContainer>
   );

@@ -30,7 +30,7 @@ function Index({
   const styles = StyleSheet.create({
     button: {
       textAlign: "center",
-      backgroundColor: loading || disabled ? Colors.LigthGrey : Colors.Primary,
+      backgroundColor: disabled ? Colors.LigthGrey : Colors.Primary,
       borderRadius: Metrix.Radius,
       alignItems: "center",
       justifyContent: "center",
