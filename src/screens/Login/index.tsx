@@ -2,23 +2,43 @@ import React, { useState } from "react";
 import { Text, View, Image, TouchableOpacity } from "react-native";
 import { styles } from "./style";
 import { Button, Footer, Input } from "../../components";
-// import { useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import Navigation from "../../navigation/root";
 import { Images } from "../../assets";
 import { Colors, SCREENS } from "../../config";
 import CheckBox from "@react-native-community/checkbox";
+import { loginUser } from "../../config/api/auth";
+import { showToast } from "../../utils";
+import { setUserData } from "../../store/actions";
 
 interface ISelectLangProps {}
 
 function Index(props: ISelectLangProps) {
+  const dispatch = useDispatch<any>();
   const [toggleCheckBox, setToggleCheckBox] = useState<boolean>(false);
+  const [isLoading, setLoading] = useState<boolean>(false);
+
   const [formValues, setFormValues] = useState<any>({
     email: "",
     password: "",
   });
 
-  const handleSubmit = () => {
-    Navigation.navigate(SCREENS.LOGIN);
+  const handleSubmit = async () => {
+    try {
+      setLoading(true);
+      // console.log("formValues", formValues);
+      const { data: userData } = await loginUser(formValues);
+      console.log("userData", userData);
+      setLoading(false);
+      dispatch(setUserData(userData.data));
+    } catch (error) {
+      // console.log("error", error.response);
+      showToast({
+        type: "error",
+        text: error?.response?.data?.message || error.message,
+      });
+      setLoading(false);
+    }
   };
 
   const handleReset = () => {
@@ -76,7 +96,13 @@ function Index(props: ISelectLangProps) {
           <Text style={styles.rowText}>Reset Passoword?</Text>
         </TouchableOpacity>
       </View>
-      <Button onPress={handleSubmit}>Log in</Button>
+      <Button
+        disabled={!formValues.email || !formValues.password}
+        loading={isLoading}
+        onPress={handleSubmit}
+      >
+        Log in
+      </Button>
       <TouchableOpacity activeOpacity={0.5}>
         <Text style={styles.helpText}>Do You Need Help?</Text>
       </TouchableOpacity>

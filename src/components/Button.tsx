@@ -14,6 +14,7 @@ interface IButtonProps {
   loaderStyle?: StyleProp<any>;
   children: string;
   loading?: boolean;
+  disabled?: boolean;
   onPress: () => void;
 }
 
@@ -24,11 +25,12 @@ function Index({
   children,
   loading = false,
   onPress,
+  disabled = false,
 }: IButtonProps) {
   const styles = StyleSheet.create({
     button: {
       textAlign: "center",
-      backgroundColor: loading ? Colors.LigthGrey : Colors.Primary,
+      backgroundColor: loading || disabled ? Colors.LigthGrey : Colors.Primary,
       borderRadius: Metrix.Radius,
       alignItems: "center",
       justifyContent: "center",
@@ -42,7 +44,7 @@ function Index({
   });
   return (
     <TouchableOpacity
-      disabled={loading}
+      disabled={loading || disabled}
       activeOpacity={0.5}
       onPress={onPress}
       style={[buttonStyle, styles.button]}

@@ -1,46 +1,32 @@
-import {IActionType} from '.';
-import {SET_USER_DATA,CLEAR_USER_DATA} from '../types';
+import { IActionType } from ".";
+import { SET_USER_DATA, CLEAR_USER_DATA } from "../types";
 
 export interface IUserState {
-	profileImage?: string;
-	email?: string;
-	createdAt: string;
-	updatedAt: string;
-	fullname: string;
-	password: string;
+  profileImage?: string;
+  email?: string;
+  createdAt: string;
+  updatedAt: string;
+  fullname: string;
+  password: string;
 }
-const initialState: IUserState = {
-	profileImage: '',
-	email: '',
-	createdAt: '',
-	updatedAt: '',
-	fullname: '',
-	password: '',
+const initialState: any = {
+  isAuth: false,
+  user: {},
 };
 
-export default (
-	state: IUserState = initialState,
-	action: IActionType,
-): IUserState => {
-	switch (action.type) {
-		case SET_USER_DATA:
-			return {
-				...state,
-				...action.payload,
-				createdAt: new Date().toISOString(),
-				updatedAt: new Date().toISOString(),
-			};
-			
-		case CLEAR_USER_DATA:
-			return {
-				profileImage: '',
-				email: '',
-				createdAt: '',
-				updatedAt: '',
-				fullname: '',
-				password: '',
-			};	
-		default:
-			return state;
-	}
+export default (state: any = initialState, action: IActionType): any => {
+  switch (action.type) {
+    case SET_USER_DATA:
+      return {
+        isAuth: true,
+        user: {
+          ...action.payload,
+        },
+      };
+
+    case CLEAR_USER_DATA:
+      return { isAuth: false, user: {} };
+    default:
+      return state;
+  }
 };

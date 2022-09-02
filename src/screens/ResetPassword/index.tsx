@@ -12,7 +12,7 @@ interface ISelectLangProps {}
 function Index(props: ISelectLangProps) {
   const [email, setEmail] = useState<string>("");
   const handleSubmit = () => {
-    Navigation.navigate(SCREENS.LOGIN);
+    // Navigation.navigate(SCREENS.LOGIN);
   };
   const onChangeText = (text: string) => {
     setEmail(text);
