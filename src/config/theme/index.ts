@@ -15,6 +15,7 @@ const Colors = {
   Primary: "#89A520",
   LigthGrey: "lightgrey",
   HeadingText: "#433227",
+  Primary_Light: "#F3F6E9",
 };
 
 export { Fonts, Colors };
