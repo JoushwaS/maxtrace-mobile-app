@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-mlkit-entity-extraction/ios/MlkitEntityExtraction.h
