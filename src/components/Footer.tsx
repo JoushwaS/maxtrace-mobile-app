@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import { Images } from "../assets";
+import { Images } from "../assets/images";
 import { Metrix, Colors } from "../config";
 
 interface IButtonProps {}
@@ -8,19 +8,16 @@ interface IButtonProps {}
 function Index({}: IButtonProps) {
   const styles = StyleSheet.create({
     container: {
+      flex: 1,
       flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "center",
-      position: "absolute",
-      bottom: 0,
-      alignSelf: "center",
-      marginVertical: Metrix.VerticalSize(15),
+      alignItems: "flex-end",
+      justifyContent: "space-between",
+      paddingVertical: Metrix.VerticalSize(25),
     },
     image: {
       width: Metrix.VerticalSize(70),
       height: Metrix.VerticalSize(70),
     },
-
     text: {
       fontSize: Metrix.FontSmall,
       color: Colors.Primary,
@@ -28,8 +25,12 @@ function Index({}: IButtonProps) {
   });
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Powered By MaxTrace</Text>
-      <Image source={Images.Logo} resizeMode="contain" style={styles.image} />
+      <View>
+        <Text style={styles.text}>Powered By MaxTrace</Text>
+      </View>
+      <View>
+        <Image source={Images.Logo} resizeMode="contain" style={styles.image} />
+      </View>
     </View>
   );
 }

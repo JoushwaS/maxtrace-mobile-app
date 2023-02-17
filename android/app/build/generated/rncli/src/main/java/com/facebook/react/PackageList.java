@@ -15,8 +15,24 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/checkbox
 import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
+// @react-native-community/datetimepicker
+import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
+// @react-native-community/netinfo
+import com.reactnativecommunity.netinfo.NetInfoPackage;
+// react-native-date-picker
+import com.henninghall.date_picker.DatePickerPackage;
+// react-native-geolocation-service
+import com.agontuk.RNFusedLocation.RNFusedLocationPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-image-picker
+import com.imagepicker.ImagePickerPackage;
+// react-native-location
+import com.github.reactnativecommunity.location.RNLocationPackage;
+// react-native-maps
+import com.airbnb.android.react.maps.MapsPackage;
+// react-native-reanimated
+import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
@@ -25,6 +41,8 @@ import com.swmansion.rnscreens.RNScreensPackage;
 import com.azendoo.reactnativesnackbar.SnackbarPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -72,11 +90,20 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new ReactCheckBoxPackage(),
+      new RNDateTimePickerPackage(),
+      new NetInfoPackage(),
+      new DatePickerPackage(),
+      new RNFusedLocationPackage(),
       new RNGestureHandlerPackage(),
+      new ImagePickerPackage(),
+      new RNLocationPackage(),
+      new MapsPackage(),
+      new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
       new SnackbarPackage(),
-      new SplashScreenReactPackage()
+      new SplashScreenReactPackage(),
+      new VectorIconsPackage()
     ));
   }
 }

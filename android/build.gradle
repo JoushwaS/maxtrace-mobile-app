@@ -1,4 +1,4 @@
-// import org.apache.tools.ant.taskdefs.condition.Os
+import org.apache.tools.ant.taskdefs.condition.Os
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
@@ -6,7 +6,7 @@ buildscript {
     ext {
         buildToolsVersion = "31.0.0"
         minSdkVersion = 21
-        compileSdkVersion = 31
+        compileSdkVersion = 32
         targetSdkVersion = 31
 
         if (System.properties['os.arch'] == "aarch64") {
@@ -22,7 +22,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.1.1")
+        // classpath('com.android.tools.build:gradle:7.2.1')
+        classpath('com.android.tools.build:gradle:7.3.1')
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("de.undercouch:gradle-download-task:5.0.1")
         // NOTE: Do not place your application dependencies here; they belong
@@ -30,19 +31,20 @@ buildscript {
     }
 }
 
-def enableProguardInReleaseBuilds = true
-def enableSeparateBuildPerCPUArchitecture = true
-def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs').readFileSync(require.resolve('react-native/package.json'), 'utf-8')).version"].execute(null, rootDir).text.trim())
-
 allprojects {
-
-     configurations.all {
-        resolutionStrategy {
-            // Remove this override in 0.66, as a proper fix is included in react-native itself.
-            force "com.facebook.react:react-native:" + REACT_NATIVE_VERSION
-        }
-        }
     repositories {
+
+             exclusiveContent {
+           filter {
+               includeGroup "com.facebook.react"
+           }
+           forRepository {
+               maven {
+                   url "$rootDir/../node_modules/react-native/android"
+               }
+           }
+           
+           }
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url("$rootDir/../node_modules/react-native/android")
@@ -60,5 +62,8 @@ allprojects {
         }
         google()
         maven { url 'https://www.jitpack.io' }
+
+
+        
     }
 }

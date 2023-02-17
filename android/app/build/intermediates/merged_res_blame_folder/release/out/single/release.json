@@ -1,0 +1,318 @@
+[
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_calendaricon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_calendaricon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_tab3.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_tab3.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_register3.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_register3.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_cameraicon2.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_cameraicon2.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_editicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_editicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_galleryicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_galleryicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_cameraimage.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_cameraimage.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_usflag.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_usflag.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_logouticon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_logouticon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_purchase.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_purchase.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_logistics.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_logistics.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_tab6.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_tab6.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_tab2.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_tab2.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_searchicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_searchicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_editicon2.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_editicon2.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_imageuploadplaceholder.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_imageuploadplaceholder.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_farmer.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_farmer.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_cameraicon3.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_cameraicon3.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_phonebookicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_phonebookicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_locationpicker.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_locationpicker.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_plotcoordinateicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_plotcoordinateicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_closeicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_closeicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_locationicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_locationicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_dobicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_dobicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_register5.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_register5.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_tab1.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_tab1.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_eye.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_eye.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_notificationicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_notificationicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_profileimagedummy.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_profileimagedummy.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_register2.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_register2.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_training.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_training.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_deleteicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_deleteicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_menuicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_menuicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_clipboardicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_clipboardicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_tab5.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_tab5.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_cellphoneicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_cellphoneicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_tab4.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_tab4.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_inspection.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_inspection.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_register4.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_register4.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.maxtracemobile.app-main-35:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_idcardicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_idcardicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_images_arrowdown.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_images_arrowdown.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-xxhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-xxhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_cameraicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_cameraicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_locationicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_locationicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_optionsicon.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_optionsicon.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.maxtracemobile.app-main-35:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.maxtracemobile.app-merged_res-34:/drawable-mdpi_src_assets_icons_register1.png.flat",
+        "source": "com.maxtracemobile.app-react-29:/drawable-mdpi/src_assets_icons_register1.png"
+    }
+]

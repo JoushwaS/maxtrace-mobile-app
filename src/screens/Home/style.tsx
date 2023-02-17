@@ -48,9 +48,9 @@ export const styles = StyleSheet.create({
     textAlign: "center",
   },
   headerRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
+    // flexDirection: "row",
+    // alignItems: "center",
+    // justifyContent: "space-between",
   },
   addBtn: {
     width: Metrix.VerticalSize(100),

@@ -1,359 +1,747 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/d28c9738e0be5fb2f452abe19a3ad1e0/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/3cdfe1d94f781b3cd4fe147ba3c7c694/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-async-storage_async-storage] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_checkbox] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-snackbar] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-snackbar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-splash-screen] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/cfd0a9924feac1a2a4ffd6e99ab7cc0d/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/3b08b05d095aecca6b9a932f37321fd9/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [org.webkit:android-jsc:r250230] /Users/Sunbonn/.gradle/caches/transforms-3/8d2a6f202e056d77debe3b0f1946991e/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/60284a14b84135e46ae93947a05c5c5b/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/878eb9a4b5af596d6ddc74101bf0608b/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b71992f7af8a3455d0a7202e282fb3e6/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/7b54771e3d287183d818d4195061b80a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/Sunbonn/.gradle/caches/transforms-3/a5fde2483085545a9a020847695505c8/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/cc00c2006db7e4175fd21aa12a960fca/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/398ee2772b89f7016c83ed64623ed368/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/c5f334f8286d6186bc8f628a5a1c8e04/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/c4676ecf9cb941fd89a7785bfbc91877/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/e23b6c2a81f5598ac15e4f7c0f0d533d/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/6c9a0e479a14c325c767b3e86ad822cb/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/db201b9b5def1a4b9784b4497516f646/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/4ac8f752cdaec91e9f610ef0247aef66/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/fc1be6edc7fab7727b474c960dcf35ee/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b37d4cff5fcf3cf7a35d15ade6c008ee/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/19f285c5360101e74a65ffd2dd8f0c51/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/a5da391e889210c4d2ba1ae6744f6033/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/af791579fa0af45f5fe21f37c3748e32/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/53e3b9b38837015479be865b2f3efec7/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/03961bb39c5326193b471a32a366795f/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/84d0f8f797135dc2bbc02d3140bc824e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/68677fb7c27918c0ed65aa4eb422a170/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6afad4ecd3a57249bbfd25877602d3c5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/1bd2365acb235464b453b7b03dd90348/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/6362dee607cba3e65f4f5cc5b2277067/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/bcc96c010b0705c2f6d616eca2e71ddc/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/31689151159397f35f0a3d96b1b29f20/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/f5cacfba5241f8337678d0b4c141c9dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/Sunbonn/.gradle/caches/transforms-3/2a4e3233fd54dfd676558212314bbb13/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] /Users/Sunbonn/.gradle/caches/transforms-3/1af4c6eeeaf5a291470ce1d2b8dd308e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/607dbd8b3f74350d5e0a1736955cde95/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/87b475518df9964e6e897f77f90ac931/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/a410214197f60a0315fde752e36a1014/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/8eb839291185694136d07de82a71f4d5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/53bb7747ac6d25b5b5c01c486350bba9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/eed9b36b9e70378034b4f2442d96e374/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/Sunbonn/.gradle/caches/transforms-3/6d9cb8d42e2c2c5cd7d720173f19043e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/532c3dd03b809b798ed9ee920d34c1ec/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/cdaf307b979cf590079b063106fa494b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/ce3bd6ddf2c71b855c92a6ed93215d5a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/abc5edb0f6f7d036cc231847ca5a4e48/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/42704fbbed6008efb81a97a397c75d93/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/c8cd6e3e8fc63494683ed420205b6ed7/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/22694210e67a081ec48957ef432ff03d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/db3beb0a70c6e44ebd46005167abe19a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/eca0a527b3f4af3e07aabfe726222252/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/88dd53ff36c32dd8b63b153fae4ebc62/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/de8b3606f91681ff7f3b124361e4b57f/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/e1e2671c25aa40016a0cc25fb3c7354f/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b232a205ced66516aba7f645188ca8c4/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/f1165b3f0730928c597e7ea26b1247fd/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/cef03af19a4c429e4ee65c6344073030/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/716c785f6de3e2eda41149d38ecc3530/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-maps] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-async-storage_async-storage] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-date-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-date-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-geolocation-service] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-safe-area-context] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-snackbar] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-snackbar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-splash-screen] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/c997e5e059e5d2bb7a1e2ff57241e99e/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/747fb81b932cf4562a6b24acbaae2b24/transformed/jetified-play-services-location-19.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/656e75d80edbb9cfadb8537e7a6394ff/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/Sunbonn/.gradle/caches/transforms-3/6ccc85e65a9c905ca063cc85f79d6f60/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-location] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-reanimated/android/build/.transforms/3716bf2a691b21b4c61130a35e4673bc/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/ff40538d2d6aa273ab7fa705e0ce76c9/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/ed9bc7b300502d9474338e3b8be0cd7c/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/699658bdf488e835c5fe36f279d095a1/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/9666e1ee565466fee9ed213bbed92302/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/Sunbonn/.gradle/caches/transforms-3/e3a9132292dceef374667366449b720a/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/2835a8f32bac8e96bb05c83bce5d8106/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/0e3bda805943668d8e99b77ebe51735c/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/d5167da428c86abeb8497020385f9602/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/33925ab01215662ae02b44dffaab19c6/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/f0dc1120ecbd39069ca6f24de6c47b2c/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/9cd213dba7a1af343a1d520ed24c1e5c/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/78c17c6dd1a793afe4caee3d1f68a4ac/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/44bff3f367c5e1a560b79309a46410d8/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/50c82248d03b1e543122d74c9067d113/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/4dbb98499238160b5fece2b0953a7648/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6cd162684cbc7b5f1c2ae5d4601f40cb/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/518134132fd4d325378c2df5d9dfd6a8/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/8f8940c31d84fbcd8bd0933d2010b1a8/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/513d3976d620e3b907c1f26462b0ee0e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/81a796f099392c41bfd842dec1445d25/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/bd68064ff4c363edce28afb2cb0a565b/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/92d6076e3c39c214d56cb9404e1796ef/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/0d2e9c1714cceee7e317b982062dd81f/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a55131323d39b55144083ba6d9222301/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/c714f3e743dcc0677fb9af4007460122/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/466a032edd41053cf6d21ea30212f27b/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a141d8cc9f8216e816a29a4615c7e863/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Sunbonn/.gradle/caches/transforms-3/e19ca55c9951417b1f6604d31651f800/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/Sunbonn/.gradle/caches/transforms-3/d9d24df13874b8cdc3411239faa529b3/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/2906e34ab4b4ba8e8a6c853988ee7298/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/7c1d92fe2f2d35ca132d77676feb0537/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/3e25258c0d55a4b50c051758210399f0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/e831d62260784d1c6c440c0b3bc09bf5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/5c080951dc60dc5f69ee4e4338c884eb/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/78c5116c081c7842a5fe30f03ce664b7/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/03273a6c89b4263936754eaf671ea733/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/Sunbonn/.gradle/caches/transforms-3/884b58e1d3c9ebbaaf418b6b11c777f9/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/02cb2854c7e5e50190d48c6cba78e4cb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/ae20bb9fe20b2b56ddc62dca5d8757b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/8aff5ffe79f58faf46e993425cd55f90/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/Sunbonn/.gradle/caches/transforms-3/e79bffc8c0743e564a487a77818b724d/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/458459ec619ee6a09bcbc5dae662d4aa/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/6199a331ea7c4df497c24f34f38f4a97/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/b501a3481cd8a2406f912bb86ae50d2e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/2889d5da628b6fca8d443cc87786b5c1/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/ddfa5d3f4a4675eb6a5716a7c2c85d53/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/c0c9369961f19e0bd475db917304151f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/68351c0fa0e5fbff27eeb9862cbd238a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/124ab43c3c1d7067af8c1868c2cf0378/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/5ed27978b5e5dd42cd52f8c8a867c56b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/8f0213757d87f7c9198d8b941e0b82a2/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/da4f02c0ce417a3ff3c814dc73c2a1c9/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/d1679b1a9689da33bedb523046363bf1/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.henninghall:numberpickerview:v1.1.5] /Users/Sunbonn/.gradle/caches/transforms-3/9ab48cfbe507bb2f18a16cde0fbec645/transformed/jetified-numberpickerview-v1.1.5/AndroidManifest.xml:2:1-11:12
+MERGED from [net.time4j:time4j-android:4.8-2021a] /Users/Sunbonn/.gradle/caches/transforms-3/8021d3d13ebf4e3462ba3ee68fe852e6/transformed/jetified-time4j-android-4.8-2021a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b4cd8f244e508c37902a63403b37e384/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/ff750c474688904e912907f877c107d6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:2:3-31
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:2:3-31
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-25:19
-MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/cfd0a9924feac1a2a4ffd6e99ab7cc0d/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/cfd0a9924feac1a2a4ffd6e99ab7cc0d/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/6c9a0e479a14c325c767b3e86ad822cb/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/6c9a0e479a14c325c767b3e86ad822cb/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/19f285c5360101e74a65ffd2dd8f0c51/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/19f285c5360101e74a65ffd2dd8f0c51/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/22694210e67a081ec48957ef432ff03d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/22694210e67a081ec48957ef432ff03d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-31:19
+MERGED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-31:19
+MERGED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-31:19
+MERGED from [:react-native-community_datetimepicker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/c997e5e059e5d2bb7a1e2ff57241e99e/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/c997e5e059e5d2bb7a1e2ff57241e99e/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/747fb81b932cf4562a6b24acbaae2b24/transformed/jetified-play-services-location-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/747fb81b932cf4562a6b24acbaae2b24/transformed/jetified-play-services-location-19.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/9cd213dba7a1af343a1d520ed24c1e5c/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/9cd213dba7a1af343a1d520ed24c1e5c/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6cd162684cbc7b5f1c2ae5d4601f40cb/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6cd162684cbc7b5f1c2ae5d4601f40cb/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/0d2e9c1714cceee7e317b982062dd81f/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/0d2e9c1714cceee7e317b982062dd81f/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a55131323d39b55144083ba6d9222301/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a55131323d39b55144083ba6d9222301/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/ae20bb9fe20b2b56ddc62dca5d8757b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/ae20bb9fe20b2b56ddc62dca5d8757b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [net.time4j:time4j-android:4.8-2021a] /Users/Sunbonn/.gradle/caches/transforms-3/8021d3d13ebf4e3462ba3ee68fe852e6/transformed/jetified-time4j-android-4.8-2021a/AndroidManifest.xml:11:5-20
+MERGED from [net.time4j:time4j-android:4.8-2021a] /Users/Sunbonn/.gradle/caches/transforms-3/8021d3d13ebf4e3462ba3ee68fe852e6/transformed/jetified-time4j-android-4.8-2021a/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:9:7-39
 	tools:ignore
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:10:9-48
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:11:7-52
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:11:7-52
 	tools:targetApi
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:9:9-29
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:12:7-34
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:12:7-34
 	android:theme
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:13:7-38
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:13:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:8:9-44
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:7:7-42
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:8:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:15:10-17:63
+	android:value
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:17:6-61
+	android:name
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:16:6-51
 activity#com.maxtracemobile.MainActivity
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:13:7-24:18
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:19:7-30:18
 	android:label
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:21:9-41
 	android:launchMode
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:23:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:18:9-51
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:24:9-51
 	android:exported
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:19:9-32
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:25:9-32
 	android:configChanges
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:16:9-118
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:22:9-118
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:20:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:20:9-23:25
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:26:9-29:25
 action#android.intent.action.MAIN
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:21:13-65
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:27:13-65
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:21:21-62
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:27:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:22:13-73
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:22:23-70
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:28:23-70
 uses-sdk
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/d28c9738e0be5fb2f452abe19a3ad1e0/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/d28c9738e0be5fb2f452abe19a3ad1e0/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/3cdfe1d94f781b3cd4fe147ba3c7c694/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/3cdfe1d94f781b3cd4fe147ba3c7c694/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-async-storage_async-storage] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_checkbox] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-snackbar] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-snackbar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-snackbar] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-snackbar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-splash-screen] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-splash-screen] /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/cfd0a9924feac1a2a4ffd6e99ab7cc0d/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/cfd0a9924feac1a2a4ffd6e99ab7cc0d/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/3b08b05d095aecca6b9a932f37321fd9/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/3b08b05d095aecca6b9a932f37321fd9/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [org.webkit:android-jsc:r250230] /Users/Sunbonn/.gradle/caches/transforms-3/8d2a6f202e056d77debe3b0f1946991e/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r250230] /Users/Sunbonn/.gradle/caches/transforms-3/8d2a6f202e056d77debe3b0f1946991e/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/60284a14b84135e46ae93947a05c5c5b/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/60284a14b84135e46ae93947a05c5c5b/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/878eb9a4b5af596d6ddc74101bf0608b/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/878eb9a4b5af596d6ddc74101bf0608b/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b71992f7af8a3455d0a7202e282fb3e6/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b71992f7af8a3455d0a7202e282fb3e6/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/7b54771e3d287183d818d4195061b80a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/7b54771e3d287183d818d4195061b80a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/Sunbonn/.gradle/caches/transforms-3/a5fde2483085545a9a020847695505c8/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/Sunbonn/.gradle/caches/transforms-3/a5fde2483085545a9a020847695505c8/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/cc00c2006db7e4175fd21aa12a960fca/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/cc00c2006db7e4175fd21aa12a960fca/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/398ee2772b89f7016c83ed64623ed368/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/398ee2772b89f7016c83ed64623ed368/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/c5f334f8286d6186bc8f628a5a1c8e04/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/c5f334f8286d6186bc8f628a5a1c8e04/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/c4676ecf9cb941fd89a7785bfbc91877/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/c4676ecf9cb941fd89a7785bfbc91877/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/e23b6c2a81f5598ac15e4f7c0f0d533d/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/e23b6c2a81f5598ac15e4f7c0f0d533d/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/6c9a0e479a14c325c767b3e86ad822cb/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/6c9a0e479a14c325c767b3e86ad822cb/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/db201b9b5def1a4b9784b4497516f646/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/db201b9b5def1a4b9784b4497516f646/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/4ac8f752cdaec91e9f610ef0247aef66/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/4ac8f752cdaec91e9f610ef0247aef66/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/fc1be6edc7fab7727b474c960dcf35ee/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/fc1be6edc7fab7727b474c960dcf35ee/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b37d4cff5fcf3cf7a35d15ade6c008ee/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b37d4cff5fcf3cf7a35d15ade6c008ee/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/19f285c5360101e74a65ffd2dd8f0c51/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/19f285c5360101e74a65ffd2dd8f0c51/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/a5da391e889210c4d2ba1ae6744f6033/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/a5da391e889210c4d2ba1ae6744f6033/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/af791579fa0af45f5fe21f37c3748e32/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/af791579fa0af45f5fe21f37c3748e32/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/53e3b9b38837015479be865b2f3efec7/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/53e3b9b38837015479be865b2f3efec7/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/03961bb39c5326193b471a32a366795f/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/03961bb39c5326193b471a32a366795f/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/84d0f8f797135dc2bbc02d3140bc824e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/84d0f8f797135dc2bbc02d3140bc824e/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/68677fb7c27918c0ed65aa4eb422a170/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/68677fb7c27918c0ed65aa4eb422a170/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6afad4ecd3a57249bbfd25877602d3c5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6afad4ecd3a57249bbfd25877602d3c5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/1bd2365acb235464b453b7b03dd90348/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/1bd2365acb235464b453b7b03dd90348/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/6362dee607cba3e65f4f5cc5b2277067/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/6362dee607cba3e65f4f5cc5b2277067/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/bcc96c010b0705c2f6d616eca2e71ddc/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/bcc96c010b0705c2f6d616eca2e71ddc/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/31689151159397f35f0a3d96b1b29f20/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/31689151159397f35f0a3d96b1b29f20/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/f5cacfba5241f8337678d0b4c141c9dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/f5cacfba5241f8337678d0b4c141c9dd/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/Sunbonn/.gradle/caches/transforms-3/2a4e3233fd54dfd676558212314bbb13/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/Sunbonn/.gradle/caches/transforms-3/2a4e3233fd54dfd676558212314bbb13/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/Sunbonn/.gradle/caches/transforms-3/1af4c6eeeaf5a291470ce1d2b8dd308e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] /Users/Sunbonn/.gradle/caches/transforms-3/1af4c6eeeaf5a291470ce1d2b8dd308e/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/607dbd8b3f74350d5e0a1736955cde95/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/607dbd8b3f74350d5e0a1736955cde95/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/87b475518df9964e6e897f77f90ac931/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/87b475518df9964e6e897f77f90ac931/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/a410214197f60a0315fde752e36a1014/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/a410214197f60a0315fde752e36a1014/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/8eb839291185694136d07de82a71f4d5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/8eb839291185694136d07de82a71f4d5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/53bb7747ac6d25b5b5c01c486350bba9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/53bb7747ac6d25b5b5c01c486350bba9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/eed9b36b9e70378034b4f2442d96e374/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/eed9b36b9e70378034b4f2442d96e374/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/Sunbonn/.gradle/caches/transforms-3/6d9cb8d42e2c2c5cd7d720173f19043e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/Sunbonn/.gradle/caches/transforms-3/6d9cb8d42e2c2c5cd7d720173f19043e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.loader:loader:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/532c3dd03b809b798ed9ee920d34c1ec/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/532c3dd03b809b798ed9ee920d34c1ec/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/cdaf307b979cf590079b063106fa494b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/cdaf307b979cf590079b063106fa494b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/ce3bd6ddf2c71b855c92a6ed93215d5a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/ce3bd6ddf2c71b855c92a6ed93215d5a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/abc5edb0f6f7d036cc231847ca5a4e48/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/abc5edb0f6f7d036cc231847ca5a4e48/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/42704fbbed6008efb81a97a397c75d93/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/42704fbbed6008efb81a97a397c75d93/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/c8cd6e3e8fc63494683ed420205b6ed7/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/c8cd6e3e8fc63494683ed420205b6ed7/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/22694210e67a081ec48957ef432ff03d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/22694210e67a081ec48957ef432ff03d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/db3beb0a70c6e44ebd46005167abe19a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/db3beb0a70c6e44ebd46005167abe19a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/eca0a527b3f4af3e07aabfe726222252/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/eca0a527b3f4af3e07aabfe726222252/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/88dd53ff36c32dd8b63b153fae4ebc62/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/88dd53ff36c32dd8b63b153fae4ebc62/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/de8b3606f91681ff7f3b124361e4b57f/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/de8b3606f91681ff7f3b124361e4b57f/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/e1e2671c25aa40016a0cc25fb3c7354f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/e1e2671c25aa40016a0cc25fb3c7354f/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b232a205ced66516aba7f645188ca8c4/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b232a205ced66516aba7f645188ca8c4/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/f1165b3f0730928c597e7ea26b1247fd/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/f1165b3f0730928c597e7ea26b1247fd/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/cef03af19a4c429e4ee65c6344073030/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/cef03af19a4c429e4ee65c6344073030/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/716c785f6de3e2eda41149d38ecc3530/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/716c785f6de3e2eda41149d38ecc3530/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-maps] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/checkbox/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-date-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-date-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-date-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-date-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-geolocation-service] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-snackbar] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-snackbar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-snackbar] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-snackbar/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/c997e5e059e5d2bb7a1e2ff57241e99e/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.69.3] /Users/Sunbonn/.gradle/caches/transforms-3/c997e5e059e5d2bb7a1e2ff57241e99e/transformed/jetified-react-native-0.69.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/747fb81b932cf4562a6b24acbaae2b24/transformed/jetified-play-services-location-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:19.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/747fb81b932cf4562a6b24acbaae2b24/transformed/jetified-play-services-location-19.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/656e75d80edbb9cfadb8537e7a6394ff/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/656e75d80edbb9cfadb8537e7a6394ff/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] /Users/Sunbonn/.gradle/caches/transforms-3/6ccc85e65a9c905ca063cc85f79d6f60/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/Sunbonn/.gradle/caches/transforms-3/6ccc85e65a9c905ca063cc85f79d6f60/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-location] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-location] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-reanimated/android/build/.transforms/3716bf2a691b21b4c61130a35e4673bc/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-reanimated/android/build/.transforms/3716bf2a691b21b4c61130a35e4673bc/transformed/jetified-react-native-reanimated-69-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/ff40538d2d6aa273ab7fa705e0ce76c9/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/ff40538d2d6aa273ab7fa705e0ce76c9/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/ed9bc7b300502d9474338e3b8be0cd7c/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/ed9bc7b300502d9474338e3b8be0cd7c/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/699658bdf488e835c5fe36f279d095a1/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/699658bdf488e835c5fe36f279d095a1/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/9666e1ee565466fee9ed213bbed92302/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/9666e1ee565466fee9ed213bbed92302/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/Sunbonn/.gradle/caches/transforms-3/e3a9132292dceef374667366449b720a/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/Sunbonn/.gradle/caches/transforms-3/e3a9132292dceef374667366449b720a/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/2835a8f32bac8e96bb05c83bce5d8106/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/2835a8f32bac8e96bb05c83bce5d8106/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/0e3bda805943668d8e99b77ebe51735c/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/0e3bda805943668d8e99b77ebe51735c/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/d5167da428c86abeb8497020385f9602/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/d5167da428c86abeb8497020385f9602/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/33925ab01215662ae02b44dffaab19c6/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/33925ab01215662ae02b44dffaab19c6/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/f0dc1120ecbd39069ca6f24de6c47b2c/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/f0dc1120ecbd39069ca6f24de6c47b2c/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/9cd213dba7a1af343a1d520ed24c1e5c/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/Sunbonn/.gradle/caches/transforms-3/9cd213dba7a1af343a1d520ed24c1e5c/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/78c17c6dd1a793afe4caee3d1f68a4ac/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/78c17c6dd1a793afe4caee3d1f68a4ac/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/44bff3f367c5e1a560b79309a46410d8/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/44bff3f367c5e1a560b79309a46410d8/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/50c82248d03b1e543122d74c9067d113/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/50c82248d03b1e543122d74c9067d113/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/4dbb98499238160b5fece2b0953a7648/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/4dbb98499238160b5fece2b0953a7648/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6cd162684cbc7b5f1c2ae5d4601f40cb/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/6cd162684cbc7b5f1c2ae5d4601f40cb/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/518134132fd4d325378c2df5d9dfd6a8/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/518134132fd4d325378c2df5d9dfd6a8/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/8f8940c31d84fbcd8bd0933d2010b1a8/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/8f8940c31d84fbcd8bd0933d2010b1a8/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/513d3976d620e3b907c1f26462b0ee0e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/Sunbonn/.gradle/caches/transforms-3/513d3976d620e3b907c1f26462b0ee0e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/81a796f099392c41bfd842dec1445d25/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/81a796f099392c41bfd842dec1445d25/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/bd68064ff4c363edce28afb2cb0a565b/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/bd68064ff4c363edce28afb2cb0a565b/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/92d6076e3c39c214d56cb9404e1796ef/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/92d6076e3c39c214d56cb9404e1796ef/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/0d2e9c1714cceee7e317b982062dd81f/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/0d2e9c1714cceee7e317b982062dd81f/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a55131323d39b55144083ba6d9222301/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a55131323d39b55144083ba6d9222301/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/c714f3e743dcc0677fb9af4007460122/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/c714f3e743dcc0677fb9af4007460122/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/466a032edd41053cf6d21ea30212f27b/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/466a032edd41053cf6d21ea30212f27b/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a141d8cc9f8216e816a29a4615c7e863/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/a141d8cc9f8216e816a29a4615c7e863/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Sunbonn/.gradle/caches/transforms-3/e19ca55c9951417b1f6604d31651f800/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Sunbonn/.gradle/caches/transforms-3/e19ca55c9951417b1f6604d31651f800/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/Sunbonn/.gradle/caches/transforms-3/d9d24df13874b8cdc3411239faa529b3/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/Sunbonn/.gradle/caches/transforms-3/d9d24df13874b8cdc3411239faa529b3/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/2906e34ab4b4ba8e8a6c853988ee7298/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/2906e34ab4b4ba8e8a6c853988ee7298/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/7c1d92fe2f2d35ca132d77676feb0537/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/7c1d92fe2f2d35ca132d77676feb0537/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/3e25258c0d55a4b50c051758210399f0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/3e25258c0d55a4b50c051758210399f0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/e831d62260784d1c6c440c0b3bc09bf5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/e831d62260784d1c6c440c0b3bc09bf5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/5c080951dc60dc5f69ee4e4338c884eb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/5c080951dc60dc5f69ee4e4338c884eb/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/78c5116c081c7842a5fe30f03ce664b7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/78c5116c081c7842a5fe30f03ce664b7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/03273a6c89b4263936754eaf671ea733/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/03273a6c89b4263936754eaf671ea733/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/Sunbonn/.gradle/caches/transforms-3/884b58e1d3c9ebbaaf418b6b11c777f9/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/Sunbonn/.gradle/caches/transforms-3/884b58e1d3c9ebbaaf418b6b11c777f9/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/02cb2854c7e5e50190d48c6cba78e4cb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/02cb2854c7e5e50190d48c6cba78e4cb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/ae20bb9fe20b2b56ddc62dca5d8757b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Sunbonn/.gradle/caches/transforms-3/ae20bb9fe20b2b56ddc62dca5d8757b9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/8aff5ffe79f58faf46e993425cd55f90/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/8aff5ffe79f58faf46e993425cd55f90/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/Sunbonn/.gradle/caches/transforms-3/e79bffc8c0743e564a487a77818b724d/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/Sunbonn/.gradle/caches/transforms-3/e79bffc8c0743e564a487a77818b724d/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/458459ec619ee6a09bcbc5dae662d4aa/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/458459ec619ee6a09bcbc5dae662d4aa/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/6199a331ea7c4df497c24f34f38f4a97/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/6199a331ea7c4df497c24f34f38f4a97/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/b501a3481cd8a2406f912bb86ae50d2e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/b501a3481cd8a2406f912bb86ae50d2e/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/2889d5da628b6fca8d443cc87786b5c1/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/2889d5da628b6fca8d443cc87786b5c1/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/ddfa5d3f4a4675eb6a5716a7c2c85d53/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/ddfa5d3f4a4675eb6a5716a7c2c85d53/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/c0c9369961f19e0bd475db917304151f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/c0c9369961f19e0bd475db917304151f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/68351c0fa0e5fbff27eeb9862cbd238a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/68351c0fa0e5fbff27eeb9862cbd238a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/124ab43c3c1d7067af8c1868c2cf0378/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/124ab43c3c1d7067af8c1868c2cf0378/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/5ed27978b5e5dd42cd52f8c8a867c56b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/Sunbonn/.gradle/caches/transforms-3/5ed27978b5e5dd42cd52f8c8a867c56b/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/8f0213757d87f7c9198d8b941e0b82a2/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/8f0213757d87f7c9198d8b941e0b82a2/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/da4f02c0ce417a3ff3c814dc73c2a1c9/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/da4f02c0ce417a3ff3c814dc73c2a1c9/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/d1679b1a9689da33bedb523046363bf1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/d1679b1a9689da33bedb523046363bf1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.henninghall:numberpickerview:v1.1.5] /Users/Sunbonn/.gradle/caches/transforms-3/9ab48cfbe507bb2f18a16cde0fbec645/transformed/jetified-numberpickerview-v1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.henninghall:numberpickerview:v1.1.5] /Users/Sunbonn/.gradle/caches/transforms-3/9ab48cfbe507bb2f18a16cde0fbec645/transformed/jetified-numberpickerview-v1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [net.time4j:time4j-android:4.8-2021a] /Users/Sunbonn/.gradle/caches/transforms-3/8021d3d13ebf4e3462ba3ee68fe852e6/transformed/jetified-time4j-android-4.8-2021a/AndroidManifest.xml:7:5-9:41
+MERGED from [net.time4j:time4j-android:4.8-2021a] /Users/Sunbonn/.gradle/caches/transforms-3/8021d3d13ebf4e3462ba3ee68fe852e6/transformed/jetified-time4j-android-4.8-2021a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b4cd8f244e508c37902a63403b37e384/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/Sunbonn/.gradle/caches/transforms-3/b4cd8f244e508c37902a63403b37e384/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/ff750c474688904e912907f877c107d6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/Sunbonn/.gradle/caches/transforms-3/ff750c474688904e912907f877c107d6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:5:5-77
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:5:22-75
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:5:22-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:11:9-111
+ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:11:9-111
 	android:exported
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:11:84-108
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:11:84-108
 	android:name
-		ADDED from /Users/Sunbonn/Desktop/Joushwa Shahzad /maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:11:19-83
+		ADDED from /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/bf5c3c76aa1a63b86455021de73134fc/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/Sunbonn/.gradle/caches/transforms-3/13d34be8e840c34d3b464be9eacd5966/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+provider#com.imagepicker.ImagePickerProvider
+ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+		ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+		ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+		ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+	android:name
+		ADDED from [:react-native-image-picker] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-location] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:react-native-location] /Users/Sunbonn/Desktop/Joushwa/sunbonn/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/39c0695e56174096b80bb0c7ea04b31a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/11f8fdbc34c61a25a6ad8ee7d0b21df5/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

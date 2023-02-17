@@ -1,8 +1,9 @@
-import {IActionType} from '../reducers';
+import { IActionType } from "../reducers";
 
 export const createAction = (type: string, payload: any): IActionType => {
-	return {type, payload};
+  return { type, payload };
 };
 
-export * from './auth';
-export * from './todo';
+export * from "./auth";
+export * from "./common";
+export * from "./farmerRegistration";

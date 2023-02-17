@@ -1,0 +1,6 @@
+module Pods_maxtraceMobile_maxtraceMobileTests {
+  umbrella header "Pods-maxtraceMobile-maxtraceMobileTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

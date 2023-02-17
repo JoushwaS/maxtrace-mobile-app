@@ -1,4 +1,7 @@
 {
   "name": "maxtraceMobile",
-  "displayName": "maxtraceMobile"
+  "displayName": "maxtraceMobile",
+  "androidStatusBar": {
+    "backgroundColor": "#000000"
+  }
 }

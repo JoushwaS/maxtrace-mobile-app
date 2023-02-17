@@ -1,5 +1,17 @@
+import { DrawerContentScrollView } from "@react-navigation/drawer";
 import { IActionType } from ".";
-import { SET_USER_DATA, CLEAR_USER_DATA } from "../types";
+import {
+  setLocalUserRegionList,
+  setLocalUserRegion,
+  getLocalUserRegion,
+} from "../../helpers/commonHelper";
+import {
+  SET_USER_DATA,
+  CLEAR_USER_DATA,
+  SET_USER_REGION,
+  SET_USER_REGIONS_LIST,
+  GET_ZONES_LIST,
+} from "../types";
 
 export interface IUserState {
   profileImage?: string;
@@ -12,6 +24,10 @@ export interface IUserState {
 const initialState: any = {
   isAuth: false,
   user: {},
+  region: {},
+  regionLocal: getLocalUserRegion(),
+  regionList: [],
+  zoneList: [],
 };
 
 export default (state: any = initialState, action: IActionType): any => {
@@ -22,6 +38,28 @@ export default (state: any = initialState, action: IActionType): any => {
         user: {
           ...action.payload,
         },
+      };
+    case SET_USER_REGIONS_LIST:
+      setLocalUserRegionList(action.payload);
+
+      console.log(" set regions reducer called");
+      return {
+        ...state,
+        regionList: action.payload,
+      };
+    case GET_ZONES_LIST:
+      // setLocalUserRegionList(action.payload);
+
+      console.log(" set zones reducer called");
+      return {
+        ...state,
+        zoneList: action.payload,
+      };
+    case SET_USER_REGION:
+      setLocalUserRegion(action.payload);
+      return {
+        ...state,
+        region: action.payload,
       };
 
     case CLEAR_USER_DATA:

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">maxtraceMobile</string>
+    <string name="app_name">Maxtrace</string>
+      <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAPHkxYcFVRtwmQ0WSErVZsXhhosGI5RL8</string>
+
 </resources>
+
+

@@ -2,6 +2,7 @@ const Fonts = {};
 
 const Colors = {
   Black: "#1E1E22",
+  HEADER_BG: "#F5F5F5",
   White: "#ffffff",
   Theme_Blue: "#196ab3",
   Mid_blue: "#1f6bb6",
@@ -14,8 +15,9 @@ const Colors = {
   Info_text: "#00529B",
   Primary: "#89A520",
   LigthGrey: "lightgrey",
+  Grey: "grey",
   HeadingText: "#433227",
-  Primary_Light: "#F3F6E9",
+  Primary_Light: "#E7EDD2",
 };
 
 export { Fonts, Colors };

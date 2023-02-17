@@ -14,7 +14,10 @@ interface IButtonProps {
   loaderStyle?: StyleProp<any>;
   children: string;
   loading?: boolean;
+  bgWhite?: boolean;
   disabled?: boolean;
+  textBlack?: boolean;
+  borderBlack?: boolean;
   onPress: () => void;
 }
 
@@ -26,18 +29,28 @@ function Index({
   loading = false,
   onPress,
   disabled = false,
+  bgWhite = false,
+  borderBlack = false,
+  textBlack = false,
 }: IButtonProps) {
   const styles = StyleSheet.create({
     button: {
       textAlign: "center",
-      backgroundColor: disabled ? Colors.LigthGrey : Colors.Primary,
+      backgroundColor: disabled
+        ? Colors.LigthGrey
+        : bgWhite
+        ? Colors.White
+        : Colors.Primary,
       borderRadius: Metrix.Radius,
+      borderWidth: borderBlack ? 0.5 : 0,
+      borderColor: borderBlack ? Colors.Black : "",
+
       alignItems: "center",
       justifyContent: "center",
       height: Metrix.VerticalSize(50),
     },
     textStyle: {
-      color: "white",
+      color: textBlack ? Colors.Black : "white",
       textAlign: "center",
       fontSize: Metrix.FontRegular,
     },

@@ -1,0 +1,363 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.maxtracemobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:react-native-community_netinfo] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+12-->[:react-native-community_netinfo] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[:react-native-community_netinfo] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+13-->[:react-native-community_netinfo] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->[:react-native-location] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+25-->[:react-native-location] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+26-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+27-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+28-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+29
+30    <application
+30-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:6:5-31:19
+31        android:name="com.maxtracemobile.MainApplication"
+31-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:8:7-38
+32        android:allowBackup="false"
+32-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:12:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.7.0] /Users/Sunbonn/.gradle/caches/transforms-3/4b328fb6a7c3e1a2274fa38eddab94fa/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:10:7-41
+35        android:label="@string/app_name"
+35-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:9:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:11:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:13:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:7:7-42
+39
+40        <!-- /GOOGLE MAPS IMPLEMENTATION -->
+41        <meta-data
+41-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:15:10-17:63
+42            android:name="com.google.android.geo.API_KEY"
+42-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:16:6-51
+43            android:value="AIzaSyAPHkxYcFVRtwmQ0WSErVZsXhhosGI5RL8" />
+43-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:17:6-61
+44
+45        <activity
+45-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:19:7-30:18
+46            android:name="com.maxtracemobile.MainActivity"
+46-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:20:9-37
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+47-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:22:9-118
+48            android:exported="true"
+48-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:25:9-32
+49            android:label="@string/app_name"
+49-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:21:9-41
+50            android:launchMode="singleTask"
+50-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:23:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:24:9-51
+52            <intent-filter>
+52-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:26:9-29:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:27:13-65
+53-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:27:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:28:13-73
+55-->/Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/android/app/src/main/AndroidManifest.xml:28:23-70
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+59-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+60            android:name="com.imagepicker.ImagePickerProvider"
+60-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+61            android:authorities="com.maxtracemobile.imagepickerprovider"
+61-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+62            android:exported="false"
+62-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+63            android:grantUriPermissions="true" >
+63-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+64            <meta-data
+64-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+66                android:resource="@xml/imagepicker_provider_paths" />
+66-->[:react-native-image-picker] /Users/Sunbonn/Desktop/live_apps/maxtrace-mobileapp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+67        </provider> <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:18.0.2] /Users/Sunbonn/.gradle/caches/transforms-3/0b3b138ca0cf116a95bc36813250bd61/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:18.0.1] /Users/Sunbonn/.gradle/caches/transforms-3/2b6ec3db78279ec2d447935fdc73f748/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+76
+77        <meta-data
+77-->[com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.maps.android:android-maps-utils:0.5] /Users/Sunbonn/.gradle/caches/transforms-3/7660d4c78b4a7e642650989cc4a76d0d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+80
+81        <provider
+81-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+83            android:authorities="com.maxtracemobile.androidx-startup"
+83-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+84            android:exported="false" >
+84-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+85            <meta-data
+85-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+86                android:name="androidx.work.WorkManagerInitializer"
+86-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+87                android:value="androidx.startup" />
+87-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/Sunbonn/.gradle/caches/transforms-3/47c4fada814f4b80fc596c5eae0916b4/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/Sunbonn/.gradle/caches/transforms-3/14cd183d048de365f0a23c2001e43023/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+94        </provider>
+95
+96        <service
+96-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+97            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+97-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+98            android:directBootAware="false"
+98-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+99            android:enabled="@bool/enable_system_alarm_service_default"
+99-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+100            android:exported="false" />
+100-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+101        <service
+101-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+102            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+102-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+103            android:directBootAware="false"
+103-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+104            android:enabled="@bool/enable_system_job_service_default"
+104-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+105            android:exported="true"
+105-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+106            android:permission="android.permission.BIND_JOB_SERVICE" />
+106-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+107        <service
+107-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+108            android:name="androidx.work.impl.foreground.SystemForegroundService"
+108-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+109            android:directBootAware="false"
+109-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+110            android:enabled="@bool/enable_system_foreground_service_default"
+110-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+111            android:exported="false" />
+111-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+112
+113        <receiver
+113-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+114            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+114-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+115            android:directBootAware="false"
+115-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+116            android:enabled="true"
+116-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+117            android:exported="false" />
+117-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+118        <receiver
+118-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+119            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+119-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+120            android:directBootAware="false"
+120-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+121            android:enabled="false"
+121-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+122            android:exported="false" >
+122-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+123            <intent-filter>
+123-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+124                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+124-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+124-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+125                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+125-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+125-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+126            </intent-filter>
+127        </receiver>
+128        <receiver
+128-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+129            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+129-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+130            android:directBootAware="false"
+130-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+131            android:enabled="false"
+131-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+132            android:exported="false" >
+132-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+133            <intent-filter>
+133-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+134                <action android:name="android.intent.action.BATTERY_OKAY" />
+134-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+134-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+135                <action android:name="android.intent.action.BATTERY_LOW" />
+135-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+135-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+136            </intent-filter>
+137        </receiver>
+138        <receiver
+138-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+139            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+139-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+140            android:directBootAware="false"
+140-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+141            android:enabled="false"
+141-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+142            android:exported="false" >
+142-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+143            <intent-filter>
+143-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+144                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+144-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+144-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+145                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+145-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+145-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+146            </intent-filter>
+147        </receiver>
+148        <receiver
+148-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+149            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+149-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+150            android:directBootAware="false"
+150-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+151            android:enabled="false"
+151-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+152            android:exported="false" >
+152-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+153            <intent-filter>
+153-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+154                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+154-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+154-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+155            </intent-filter>
+156        </receiver>
+157        <receiver
+157-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+158            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+158-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+159            android:directBootAware="false"
+159-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+160            android:enabled="false"
+160-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+161            android:exported="false" >
+161-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+162            <intent-filter>
+162-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+163                <action android:name="android.intent.action.BOOT_COMPLETED" />
+163-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+163-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+164                <action android:name="android.intent.action.TIME_SET" />
+164-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+164-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+165                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+165-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+165-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+166            </intent-filter>
+167        </receiver>
+168        <receiver
+168-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+169            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+169-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+171            android:enabled="@bool/enable_system_alarm_service_default"
+171-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+172            android:exported="false" >
+172-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+173            <intent-filter>
+173-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+174                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+174-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+174-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+178            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+178-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+180            android:enabled="true"
+180-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+181            android:exported="true"
+181-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+182            android:permission="android.permission.DUMP" >
+182-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+183            <intent-filter>
+183-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+184                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+184-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+184-->[androidx.work:work-runtime:2.7.1] /Users/Sunbonn/.gradle/caches/transforms-3/0035d0a6d99b4c94e92eef82f621aace/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+185            </intent-filter>
+186        </receiver>
+187
+188        <service
+188-->[androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+189            android:name="androidx.room.MultiInstanceInvalidationService"
+189-->[androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+190            android:directBootAware="true"
+190-->[androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+191            android:exported="false" />
+191-->[androidx.room:room-runtime:2.2.5] /Users/Sunbonn/.gradle/caches/transforms-3/728d8f71b0937ff6744293ec8bd145eb/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+192    </application>
+193
+194</manifest>

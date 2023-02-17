@@ -7,9 +7,9 @@ import rootReducer from "./reducers";
 
 // redux-persist config
 const persistConfig = {
-  key: "root:todoapp",
+  key: "root:maxtrace",
   storage: AsyncStorage,
-  whitelist: ["auth", "todos"],
+  whitelist: ["auth", "common", "farmerRegistration"],
 };
 
 // initialize persist reducer
